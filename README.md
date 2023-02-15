@@ -1,6 +1,9 @@
 # MissNice
 > MissNice是一款简洁强大的WORPRESS主题，没有任何加密，响应式设计，集成第三方登录，邮箱验证发送，文章点赞，后台主题设置，图片懒加载，自动缩略图，SEO，广告位，用户中心等超多功能，适用于个人博客，行业垂直性网站。技术交流QQ群707252643，作者QQ942835420。  
 
+### 主题地址
+[https://www.xenice.com/article/missnice](https://www.xenice.com/article/missnice)
+
 ### 主题演示
 
 [http://miss.xenice.com/](http://miss.xenice.com/)
