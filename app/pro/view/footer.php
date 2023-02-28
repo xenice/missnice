@@ -7,13 +7,13 @@ if ( !take('fit_elementor') || !function_exists( 'elementor_theme_do_location' )
 		    <?php if(take('site_footer')){echo take('site_footer');} else{?>
     		    <span>&copy; <?=date("Y")?> <a href="<?=$option->info['url']?>"><?=$option->info['name']?></a></span>
                 <a href="https://www.xenice.com/article/missnice" target="_blank">theme by missnice</a>
-            <?};?>
-            <?php
-                $icp = take('enable_site_icp');
-                if($icp){
-                    echo '<a href="https://beian.miit.gov.cn/" target="_blank">'.take('site_icp').'</a>';
-                }
-            ?>
+                <?php
+                    $icp = take('enable_site_icp');
+                    if($icp){
+                        echo '<a href="https://beian.miit.gov.cn/" target="_blank">'.take('site_icp').'</a>';
+                    }
+                ?>
+            <?php } ?>
         </div>
 	</div>
 </footer>
